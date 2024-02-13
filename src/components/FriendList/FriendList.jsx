@@ -18,4 +18,4 @@ import FriendListItem from "../FriendListItem/FriendListItem";
     );
   };
 
-  export default FriendList;
+export default FriendList;

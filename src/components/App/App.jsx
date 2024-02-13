@@ -5,6 +5,7 @@ import './App.css'
 import userData from "../../userData.json"
 import friends from "../../friends.json"
 
+
 const App = () => {
   return (
     <>
