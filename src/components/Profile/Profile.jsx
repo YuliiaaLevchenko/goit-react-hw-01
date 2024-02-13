@@ -1,6 +1,5 @@
 
-export const Profile = ({ 
-  name, tag, location, image, stats }) => {
+const Profile = ({ name, tag, location, image, stats }) => {
     return (
       <div>
  <div>
@@ -16,7 +15,7 @@ export const Profile = ({
  <ul>
  <li>
  <span>Followers</span>
- <span>{stats.follwers}</span>
+ <span>{stats.followers}</span>
  </li>
  <li>
  <span>Views</span>
@@ -31,3 +30,5 @@ export const Profile = ({
 
     );
   };
+
+  export default Profile;

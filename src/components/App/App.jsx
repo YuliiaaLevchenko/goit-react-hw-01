@@ -3,8 +3,9 @@ import { FriendList } from '../FriendList/FriendList'
 import { TransactionHistory } from '../TransactionHistory/TransactionHistory'
 import './App.css'
 import userData from "../../userData.json"
+import friends from "../../friends.json"
 
-export default function App() {
+const App = () => {
   return (
     <>
       <div>
@@ -15,13 +16,13 @@ export default function App() {
       image={userData.avatar}
       stats={userData.stats}
         />
-        <FriendList
-        />
+        <FriendList friends={friends} />
         <TransactionHistory
         />
       </div>
     </>
-  )
-}
+  );
+};
 
+export default App
 
