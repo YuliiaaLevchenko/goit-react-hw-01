@@ -1,7 +1,9 @@
-export const TransactionHistory = () => {
+const TransactionHistory = () => {
     return (
       <>
         
       </>
     );
   };
+
+  export default TransactionHistory;

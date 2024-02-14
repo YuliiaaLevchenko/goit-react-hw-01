@@ -28,6 +28,9 @@ const Profile = ({ name, tag, location, image, stats }) => {
  </ul>
 </div>
 
+
+
+
     );
   };
 
