@@ -3,6 +3,7 @@
     border-radius: 16px;
     border: 2px solid gray;
     overflow: hidden;
+    width: 400px;
 }
 .profile {
     display: flex;
@@ -29,7 +30,6 @@
 }
 .stats {
    
-    justify-content: space-between;
     background-color: rgb(218, 222, 226);
     list-style-type: none;
     display: flex;
@@ -38,14 +38,15 @@
 padding: 16px 8px;
 display: flex;
 flex: 1;
-border: 2px solid gray;
+border: 1px solid gray;
 flex-direction: column;
+width: calc(100% / 3);
 }
 .listTitle {
-    font-size: 16px;
+    font-size: 18px;
 }
 .amount {
    display: block;
     font-weight: bold; 
-    
+    font-size: 18px;
 }

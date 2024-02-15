@@ -7,7 +7,7 @@ clsx(css.status, {
     [css.offline]: !isOnline,
 }); 
 
-const FriendListItem = ({ avatar, name, isOnline } ) => {
+const FriendListItem = ({ avatar, name, isOnline }) => {
     
     return (
         <div className={css.container}>

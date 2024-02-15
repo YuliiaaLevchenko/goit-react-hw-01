@@ -1,0 +1,15 @@
+.status {
+    font-size: 12px;
+}
+.online {
+    color: green;
+}
+.offline {
+    color: red;
+}
+.avatar {
+    padding-top: 8px;
+}
+.name {
+    font-weight: bold;
+}
