@@ -5,27 +5,22 @@ const TransactionHistory = ({ items }) => {
       <>
         <table className={css.container}>
   <thead>
-    <tr>
+    <tr className={css.title}>
       <th>Type</th>
       <th>Amount</th>
       <th>Currency</th>
     </tr>
   </thead>
-
-  <tbody>
-    <tr>
-      <td>{items.type}</td>
-      <td>{items.amount}</td>
-      <td>{items.currency}</td>
+  <tbody className={css.item}>
+  {items.map(item => (
+    <tr className={css.color} key={item.id}>
+      <td className={css.text}>{item.type}</td>
+      <td>{item.amount}</td>
+      <td>{item.currency}</td>
     </tr>
-    <tr>
-      <td>Withdrawal</td>
-      <td>85</td>
-      <td>USD</td>
-    </tr>
+   ))}
   </tbody>
 </table>
-
       </>
     );
   };
